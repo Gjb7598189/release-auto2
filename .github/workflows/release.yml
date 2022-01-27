@@ -14,6 +14,8 @@ jobs:
         with:
           node-version: 17
           registry-url: https://registry.npmjs.org/
+      - run: git config user.name Gjb7598189
+      - run: git config user.email 1171772585@qq.com
       - run: npx standard-version
       - run: npm publish
         env:
