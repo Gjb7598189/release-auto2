@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.1.1 (2022-01-27)
+
+
+### Bug Fixes
+
+* add index.js# ([dbf1564](https://github.com/Gjb7598189/release-auto2/commit/dbf15646efe96f0245ff0dc07398b63480c0688c))
+
 ## 2.1.0 (2022-01-27)
 
 
