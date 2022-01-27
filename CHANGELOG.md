@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 2.1.0 (2022-01-27)
+
+
+### Features
+
+* try push after publish# ([381c8a6](https://github.com/Gjb7598189/release-auto2/commit/381c8a61624c911e28f99feb02a66f9035722595))
+
 ## 2.0.0 (2022-01-27)
 
 
