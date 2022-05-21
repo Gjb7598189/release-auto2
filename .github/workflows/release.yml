@@ -9,14 +9,13 @@ jobs:
   publish-npm:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v1
         with:
           node-version: 17
           registry-url: https://registry.npmjs.org/
       - run: git config user.name Gjb7598189
       - run: git config user.email 1171772585@qq.com
-      - run: git pull origin main
       - run: npx standard-version
       - run: git push origin main
       - run: npm publish
